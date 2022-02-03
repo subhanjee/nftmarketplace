@@ -7,7 +7,7 @@ import Grid from "@mui/material/Grid";
 import Carousel1 from "../carousel/Carousel";
 
 function NftImages() {
-  return (
+  return ( 
     <div className="mainnft">
      
       <Box sx={{ flexGrow: 1 }}>
