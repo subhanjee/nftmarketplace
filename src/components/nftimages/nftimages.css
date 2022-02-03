@@ -1,0 +1,37 @@
+.mainnft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.kaysingif{
+    width: 14rem;
+    border-radius: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 1.3rem
+}
+.grid{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+.grid1{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+} 
+.nfttext{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    margin-top: -.3rem;
+    margin-left: 1.6rem;
+}
+.nfttext1{
+    position: absolute;
+    color: grey;
+    font-weight: bold;
+    margin-top:1.1rem;
+    margin-left: 1.6rem;
+}

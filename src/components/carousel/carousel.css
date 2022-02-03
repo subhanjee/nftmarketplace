@@ -1,0 +1,59 @@
+.maincarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    width: 30rem;
+}
+
+.carousel.carousel-slider .control-arrow {
+    display: none !important;
+}
+
+.carousel .carousel-status {
+    display: none !important;
+}
+
+.imgset {
+    /* width: 30rem !important; */
+    border-radius: 1rem !important;
+    opacity: 1;
+
+}
+
+.carousel .thumbs {
+    display: none !important;
+}
+
+.text {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+.text1 {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    color: white;
+}
+
+.text2 {
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 2rem;
+    color: rgb(202, 197, 197);
+}
+@media(max-width: 425px){
+    .carousel {
+        width: 25rem;
+    }
+}
+@media(max-width: 375px){
+    .carousel {
+        width: 20rem;
+    }
+}
